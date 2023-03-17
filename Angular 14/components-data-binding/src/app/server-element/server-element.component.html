@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+      <div class="panel-heading">{{elementField.name}}</div>
+      <div class="panel-body">
+        <p>
+          <strong *ngIf="elementField.type==='server'" style="color : red" >{{elementField.content}}</strong>
+          <em *ngIf="elementField.type === 'blueprint'">{{elementField.content}}</em>
+        </p>
+      </div>
+      </div>
